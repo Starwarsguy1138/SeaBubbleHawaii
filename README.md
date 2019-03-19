@@ -1,5 +1,5 @@
 # SeaBubbleHawaii
 Group Project!!! Run and scream everyone!!!!!!!!!! AAAAAGGGGGGGGGHHHHHHHHHHHH!
-Alex Campbell
-Daniel Causey
-Dominic Jones-Jackson
+Alex Campbell - Starwarsguy1138
+Daniel Causey - Causeyd
+Dominic Jones-Jackson - sethveeper
