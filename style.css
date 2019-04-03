@@ -1,0 +1,30 @@
+.container {
+  border: 1px solid black;
+}
+
+header {
+  text-align: center;
+  border: 1px solid red;
+}
+
+nav {
+  margin-top: 10px;
+  padding: 1px;
+  border: 1px solid blue;
+}
+
+main {
+  margin-top: 10px;
+  margin-bottom: 80px;
+  border: 1px solid purple;
+}
+
+footer.row {
+  background-color: white;
+  border: 1px solid green;
+}
+
+footer.row .col-sm {
+  text-align: center;
+  border: 1px solid green;
+}
