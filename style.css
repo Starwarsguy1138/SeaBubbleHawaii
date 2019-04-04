@@ -1,4 +1,9 @@
+body {
+  background-color: #b0b0b0;
+}
+
 .container {
+  background-color: white;
   border: 1px solid black;
 }
 
@@ -7,24 +12,18 @@ header {
   border: 1px solid red;
 }
 
-nav {
+main {
   margin-top: 10px;
-  padding: 1px;
+}
+
+footer {
+  margin-top: 10px;
+  margin-bottom: 80px;
+  text-align: center;
   border: 1px solid blue;
 }
 
-main {
-  margin-top: 10px;
-  margin-bottom: 80px;
-  border: 1px solid purple;
-}
-
-footer.row {
+nav.fixed-bottom {
   background-color: white;
-  border: 1px solid green;
-}
-
-footer.row .col-sm {
-  text-align: center;
   border: 1px solid green;
 }
