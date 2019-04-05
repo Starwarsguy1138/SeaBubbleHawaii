@@ -1,7 +1,63 @@
+/*****************
+*==== Basics ====*
+******************/
 body {
   background-color: #b0b0b0;
 }
+ /* Self explanatory, I would hope. */
 
+/*******************
+*==== Sections ====*
+********************/
+
+
+main div {
+  background-color: #e0e0e0;
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+ /* The sectional dividers. Each section of the page goes in a div tag */
+
+/*
+main div:nth-child(odd) {
+  background-color: #ffffff;
+}
+A placeholder on the offchance that we want the sections to have alternating styles. */
+
+main div figure {
+  float: left;
+  margin: 15px;
+  padding: 5px;
+  background-color: white;
+  border: 3px solid purple;
+}
+ /* The figures for images, carousels, etc... */
+
+main div:nth-child(odd) figure {
+  float: right;
+  border: 3px solid green;
+}
+ /* ... with a special rule for the alternating ones. */
+
+figure img {
+border: 1px solid black;
+}
+ /* Ideally, we'd apply this to everything other than the figcaption in a figure, but I'm not yet sure how to do that without a class. */
+
+figure figcaption {
+  font-style: italic;
+}
+ /* Additional rules can be added as deemed necessary. */
+
+h2 {
+  width: 100%;
+  border: 1px solid red;
+}
+  /* I'm... Not sure why I did this actually. Hmm. */
+
+/*****************
+*==== Layout ====*
+******************/
 .container {
   background-color: white;
   border: 1px solid black;
@@ -23,7 +79,7 @@ footer {
   border: 1px solid blue;
 }
 
-nav.fixed-bottom {
-  background-color: white;
+nav {
   border: 1px solid green;
+  background-color: white;
 }
