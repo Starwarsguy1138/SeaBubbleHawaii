@@ -4,57 +4,57 @@
 body {
   background-color: #b0b0b0;
 }
- /* Self explanatory, I would hope. */
 
+/* Self explanatory, I would hope. */
 /*******************
 *==== Sections ====*
 ********************/
-
-
-main div {
+.section {
   background-color: #e0e0e0;
   border: 1px solid black;
   margin-bottom: 10px;
+  clear: right;
+  overflow: auto;
 }
- /* The sectional dividers. Each section of the page goes in a div tag */
 
-main div figure {
+/* The sectional dividers. Each section of the page goes in a div tag */
+.section figure {
   float: left;
   margin: 15px;
   padding: 5px;
   background-color: white;
   border: 3px solid purple;
 }
- /* The figures for images, carousels, etc... */
 
-
+/* The figures for images, carousels, etc... */
 /* Even sections have different style rules.*/
-main div:nth-child(even) {
- background-color: #ffffff;
+.section:nth-child(even) {
+  background-color: #ffffff;
+  clear: left;
 }
 
-main div:nth-child(even) figure {
+.section:nth-child(even) figure {
   float: right;
   border: 3px solid green;
 }
- /* ... with a special rule for the alternating ones. */
 
+/* ... with a special rule for the alternating ones. */
 figure img {
-border: 1px solid black;
+  border: 1px solid black;
 }
- /* Ideally, we'd apply this to everything other than the figcaption in a figure, but I'm not yet sure how to do that without a class. */
 
+/* Ideally, we'd apply this to everything other than the figcaption in a figure, but I'm not yet sure how to do that without a class. */
 figure figcaption {
   font-style: italic;
 }
- /* Additional rules can be added as deemed necessary. */
 
+/* Additional rules can be added as deemed necessary. */
 h2 {
   width: 100%;
   border: 1px solid red;
 }
-  /* I'm... Not sure why I did this actually. Hmm. */
 
+/* I'm... Not sure why I did this actually. Hmm. */
 /*****************
 *==== Layout ====*
 ******************/
