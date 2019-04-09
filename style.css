@@ -18,12 +18,6 @@ main div {
 }
  /* The sectional dividers. Each section of the page goes in a div tag */
 
-/*
-main div:nth-child(odd) {
-  background-color: #ffffff;
-}
-A placeholder on the offchance that we want the sections to have alternating styles. */
-
 main div figure {
   float: left;
   margin: 15px;
@@ -33,7 +27,13 @@ main div figure {
 }
  /* The figures for images, carousels, etc... */
 
-main div:nth-child(odd) figure {
+
+/* Even sections have different style rules.*/
+main div:nth-child(even) {
+ background-color: #ffffff;
+}
+
+main div:nth-child(even) figure {
   float: right;
   border: 3px solid green;
 }
