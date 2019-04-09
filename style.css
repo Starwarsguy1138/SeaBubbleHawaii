@@ -1,8 +1,12 @@
 /*****************
 *==== Basics ====*
 ******************/
+html {
+     scroll-behavior: smooth;
+}
+
 body {
-  background-color: #b0b0b0;
+  background-image: linear-gradient(to bottom right, #7eb1ff, #1325d4);
 }
 
 /* Self explanatory, I would hope. */
@@ -10,11 +14,12 @@ body {
 *==== Sections ====*
 ********************/
 .section {
-  background-color: #e0e0e0;
+  background-color: #00f0ba;
   border: 1px solid black;
   margin-bottom: 10px;
   clear: right;
   overflow: auto;
+  opacity: .75;
 }
 
 /* The sectional dividers. Each section of the page goes in a div tag */
@@ -22,14 +27,14 @@ body {
   float: left;
   margin: 15px;
   padding: 5px;
-  background-color: white;
+  background-color: #ffffff;
   border: 3px solid purple;
 }
 
 /* The figures for images, carousels, etc... */
 /* Even sections have different style rules.*/
 .section:nth-child(even) {
-  background-color: #ffffff;
+  background-color: #18d0a7;
   clear: left;
 }
 
@@ -41,6 +46,7 @@ body {
 /* ... with a special rule for the alternating ones. */
 figure img {
   border: 1px solid black;
+  opacity: 1;
 }
 
 /* Ideally, we'd apply this to everything other than the figcaption in a figure, but I'm not yet sure how to do that without a class. */
@@ -51,7 +57,8 @@ figure figcaption {
 /* Additional rules can be added as deemed necessary. */
 h2 {
   width: 100%;
-  border: 1px solid red;
+  border: 1px solid #faff7f;
+  color: #faff7f;
 }
 
 /* I'm... Not sure why I did this actually. Hmm. */
@@ -59,13 +66,13 @@ h2 {
 *==== Layout ====*
 ******************/
 .container {
-  background-color: white;
+  background-color: #4890fa;
   border: 1px solid black;
 }
 
 header {
   text-align: center;
-  border: 1px solid red;
+  border: 1px solid #faff7f;
 }
 
 main {
