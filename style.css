@@ -43,6 +43,10 @@ body {
   border: 3px solid green;
 }
 
+.section:nth-child(even) h2 {
+     text-align: right;
+}
+
 /* ... with a special rule for the alternating ones. */
 figure img {
   border: 1px solid black;
@@ -55,10 +59,17 @@ figure figcaption {
 }
 
 /* Additional rules can be added as deemed necessary. */
+
 h2 {
   width: 100%;
   border: 1px solid #faff7f;
   color: #faff7f;
+  margin: auto;
+  font-family: 'Acme', sans-serif;
+}
+
+p {
+     margin: 10px;
 }
 
 /* I'm... Not sure why I did this actually. Hmm. */
@@ -72,7 +83,9 @@ h2 {
 
 header {
   text-align: center;
+  font-family: 'Acme', sans-serif;
   border: 1px solid #faff7f;
+  background-color: #faff7f;
 }
 
 main {
