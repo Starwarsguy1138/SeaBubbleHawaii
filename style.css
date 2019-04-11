@@ -62,9 +62,10 @@ figure figcaption {
 
 h2 {
   width: 100%;
-  border: 1px solid #faff7f;
+  /*border: 1px solid #faff7f;*/
   color: #faff7f;
   margin: auto;
+  padding: 10px;
   font-family: 'Acme', sans-serif;
 }
 
@@ -97,6 +98,7 @@ footer {
   margin-bottom: 80px;
   text-align: center;
   border: 1px solid blue;
+  background-color: #2c3fed;
 }
 
 nav {
